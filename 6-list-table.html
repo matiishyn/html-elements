@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Списки та таблиця</title>
+</head>
+<body>
+
+  <!-- маркований список -->
+  <ul>
+    <li>Кава</li>
+    <li>Чай</li>
+    <li>Капучино</li>
+  </ul>
+
+  <!-- нумерований список -->
+  <ol start="5">
+    <li>перший</li>
+    <li>другий</li>
+    <li>третій</li>
+  </ol>
+
+  <!-- вкладені списки -->
+  <ul>
+    <li>Кава</li>
+    <li>Чай</li>
+    <li>
+      Капучино
+      <ol>
+        <li>зробити каву</li>
+        <li>збити молоко</li>
+        <li>налити збите молоко до кави</li>
+      </ol>
+    </li>
+    <li>Латте</li>
+  </ul>
+
+  <hr>
+
+  <h1>Таблиця</h1>
+
+  <!-- проста таблиця -->
+  <table border="1">
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+  </table>
+
+  <!-- tbody, thead, tfoot -->
+  <table border="1">
+    <caption>витрати</caption>
+    <thead>
+      <tr>
+        <th>Назва</th>
+        <th>Сума</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>оренда житла</td>
+        <td>800</td>
+      </tr>
+
+      <tr>
+        <td>оренда авто</td>
+        <td>500</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td>Разом</td>
+        <td>1300</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <!-- об'єднання клатинок -->
+  <table border="1">
+    <tr>
+      <td colspan="2">1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td rowspan="2">6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+    </tr>
+  </table>
+
+  
+</body>
+</html>
